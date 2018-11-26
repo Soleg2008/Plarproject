@@ -1,0 +1,50 @@
+.footer {
+		padding-top: 83px;
+		padding-bottom: 139px;
+		background-image: url(../images/footer_back.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: white;
+		text-align: center;
+		  & h2{
+		  	font-size: 44px;
+		  }		  
+  }
+#valid{
+		color: red;
+}
+  .footer_h {
+		  	margin-bottom: 24px;
+		  }
+	.footer_span {
+		  	margin-bottom: 44px;
+		  	font-size: 18px;
+		  }
+
+  .search_btn {
+  		font-family: Museo Sans Cyrillic;
+		font-size: 14px;
+		background-color: #00a0de;
+		border: none;
+		color: white;
+		width: 134px;
+		height: 42px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		margin: 4px 2px;
+		cursor: pointer;
+		transition: 0.2s linear;
+  }
+  .search_btn:hover {
+  	font-weight: bold;
+  }
+
+	input[type="text"] {
+        border: none;
+        height: 42px;
+        width: 310px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border: none;
+    }

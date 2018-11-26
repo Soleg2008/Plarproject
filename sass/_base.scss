@@ -1,0 +1,74 @@
+
+html {
+    min-width: 740px;
+}
+* {
+	box-sizing: border-box;
+	font-family: Museo Sans Cyrillic;
+}
+.container {
+    min-width: 740px;
+    max-width: 1350px;
+	padding: 15px;
+}
+// body {
+//     min-width: 740px;
+// }
+
+a:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1440px) 
+{
+    .container {
+        width: 960px;
+    }
+}
+@media (max-width: 960px) 
+{
+    .container {
+        width: 740px;
+    }
+}
+
+
+.upper {
+	text-transform: uppercase;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrillic';
+    src: url('../fonts/MuseoSansCyrillic-500.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrillic';
+    src: url('../fonts/MuseoSansCyrillic-100.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrillic';
+    src: url('../fonts/MuseoSansCyrillic-700.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrillic';
+    src: url('../fonts/MuseoSansCyrillic-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrillic';
+    src: url('../fonts/MuseoSansCyrillic-100.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
